@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "author": "benji-at",
+    "presets": [
+        {
+            "id": "forest",
+            "name": "Forest",
+            "description": "",
+            "version": "1.0.0",
+            "configVersion": 31,
+            "path": "presets/forest",
+            "wallpaper": "presets/forest/wallpaper.jpg",
+            "banner": "presets/forest/banner.jpg",
+            "screenshots": [
+                "presets/forest/screenshots/1-39d0ca14.png"
+            ]
+        }
+    ]
+}
