@@ -4,7 +4,7 @@ Community presets collection for [Illogical Impulse](https://github.com/vaxerski
 
 ## Available Presets
 
-- **Forest** (`forest`, v1.0.3)
+- **Forest** (`forest`, v1.0.4)
 
 ## How to Install
 

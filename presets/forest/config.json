@@ -144,8 +144,8 @@
                 "placementStrategy": "free",
                 "positions": {
                     "DP-2": {
-                        "x": 70,
-                        "y": 20
+                        "x": 80,
+                        "y": 30
                     },
                     "HDMI-A-1": {
                         "x": 80,
@@ -153,8 +153,8 @@
                     }
                 },
                 "widgetId": "calendar_month_tall",
-                "x": 70,
-                "y": 20
+                "x": 80,
+                "y": 30
             },
             {
                 "id": "widget_clock_cookie_1792948048112",
@@ -288,7 +288,7 @@
         "wallpaperAnimation": "magic",
         "wallpaperEngineAssetsPath": "",
         "wallpaperEngineId": "",
-        "wallpaperPath": "$HOME/Pictures/Wallpapers/wallhaven-mloz89.jpg",
+        "wallpaperPath": "$HOME/.config/illogical-impulse/presets/Forest.jpg",
         "widgets": {
             "ai_chat": {
                 "enable": false,
@@ -2139,7 +2139,7 @@
             "enableTooltips": true,
             "popupScaleMultiplier": 1
         },
-        "topLeftIcon": "asterisk",
+        "topLeftIcon": "explosion",
         "transparentGlow": true,
         "useMaterialSymbolForTopLeftIcon": true,
         "utilButtons": {
@@ -3531,7 +3531,7 @@
             "textFadeIn": true,
             "thinkingDefault": ""
         },
-        "bannerImage": "$HOME/.config/illogical-impulse/presets/Gruvbox_banner.jpg",
+        "bannerImage": "$HOME/.config/illogical-impulse/presets/Forest_banner.jpg",
         "booru": {
             "allowNsfw": false,
             "defaultProvider": "yandere",
