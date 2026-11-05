@@ -3,13 +3,18 @@
     "name": "Forest",
     "author": "benji-at",
     "description": "",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "configVersion": 31,
     "config": "config.json",
     "screenshots": [
         "screenshots/1-39d0ca14.png"
     ],
     "changelog": [
+        {
+            "version": "1.0.3",
+            "date": "2026-11-05",
+            "notes": "patch"
+        },
         {
             "version": "1.0.2",
             "date": "2026-11-03",

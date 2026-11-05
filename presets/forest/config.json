@@ -144,17 +144,17 @@
                 "placementStrategy": "free",
                 "positions": {
                     "DP-2": {
-                        "x": 100,
-                        "y": 35
+                        "x": 70,
+                        "y": 20
                     },
                     "HDMI-A-1": {
                         "x": 80,
-                        "y": 29
+                        "y": 20
                     }
                 },
                 "widgetId": "calendar_month_tall",
-                "x": 100,
-                "y": 35
+                "x": 70,
+                "y": 20
             },
             {
                 "id": "widget_clock_cookie_1792948048112",
@@ -270,6 +270,7 @@
             "widgetsFactor": 1.2,
             "workspaceZoom": 1.1
         },
+        "realGnomeAllMonitors": false,
         "referenceResolution": {
             "height": 1080,
             "width": 1920
@@ -1671,8 +1672,8 @@
         "wpeScreenSpan": "",
         "wpeSilent": true,
         "wpeVolume": 50,
-        "zoomOutEnabled": true,
-        "zoomOutStyle": 2
+        "zoomOutEnabled": false,
+        "zoomOutStyle": 1
     },
     "bar": {
         "activeWindow": {
@@ -1801,19 +1802,19 @@
             "askpassSudo": false,
             "askpassTerminal": false,
             "askpassTerminalStyle": "pill",
-            "autoHide": false,
+            "autoHide": true,
             "auxiliaryBubble": true,
             "centerInBar": false,
             "clickToExpand": false,
             "disableAiStatus": false,
             "disableAlarm": false,
             "disableBattery": false,
-            "disableBatteryGlance": true,
+            "disableBatteryGlance": false,
             "disableBluetooth": false,
-            "disableClipboard": false,
+            "disableClipboard": true,
             "disableDictation": false,
             "disableDiscordVoice": false,
-            "disableEarbuds": true,
+            "disableEarbuds": false,
             "disableEasyEffects": false,
             "disableFingerprint": false,
             "disableHealth": false,
@@ -1838,22 +1839,23 @@
             "disableTimer": false,
             "disableUpdate": false,
             "disableVpn": false,
-            "disableWeather": false,
+            "disableWeather": true,
             "disableWifi": false,
             "disableWindowSwitcher": false,
-            "disableWorkspaces": false,
-            "disableWorkspacesBubble": false,
+            "disableWorkspaces": true,
+            "disableWorkspacesBubble": true,
             "dropShadow": false,
             "enable": true,
-            "hoverExpandDelayMs": 600,
+            "hoverExpandDelayMs": 0,
             "integratedOverview": true,
             "integratedPopups": true,
             "integratedSessionMenu": true,
             "integratedWallpaperBrowser": true,
             "onlyShowOnSingleMonitor": false,
+            "pinMediaBubble": false,
             "shape": "notch",
             "singleMonitorName": "",
-            "wallpaperBrowserStyle": "row"
+            "wallpaperBrowserStyle": "carousel"
         },
         "indicators": {
             "notifications": {
@@ -2035,7 +2037,7 @@
             "width": 44
         },
         "sports": {
-            "activeGameId": "401882828",
+            "activeGameId": "401915311",
             "colorMode": "primary",
             "customOrder": [],
             "enable": true,
@@ -2094,16 +2096,16 @@
             "aiPlanUsage": "expressive",
             "battery": "default",
             "bluetooth": "expressive",
-            "clock": "neural",
-            "dashboard": "sculpt",
+            "clock": "expressive",
+            "dashboard": "expressive",
             "date": "default",
-            "keyboard": "material",
+            "keyboard": "expressive",
             "media": "default",
             "networkSpeed": "default",
             "notification": "default",
             "policies": "expressive",
             "portWatcher": "expressive",
-            "power": "solid",
+            "power": "expressive",
             "recordIndicator": "neural",
             "resources": "sculpt",
             "search": "default",
@@ -2111,7 +2113,7 @@
             "systray": "default",
             "timer": "expressive",
             "utilButtons": "expressive",
-            "weather": "sculpt",
+            "weather": "expressive",
             "workspaces": "expressive"
         },
         "systray": {
@@ -2186,7 +2188,28 @@
             "dynamicWorkspaces": false,
             "maxWindowCount": 2,
             "monochromeIcons": false,
-            "numberMap": [],
+            "numberMap": [
+                "I",
+                "II",
+                "III",
+                "IV",
+                "V",
+                "VI",
+                "VII",
+                "VIII",
+                "IX",
+                "X",
+                "XI",
+                "XII",
+                "XIII",
+                "XIV",
+                "XV",
+                "XVI",
+                "XVII",
+                "XVIII",
+                "XIX",
+                "XX"
+            ],
             "showAppIcons": false,
             "showNumberDelay": 300,
             "shown": 5,
@@ -2804,7 +2827,12 @@
         "extendMinutes": 15,
         "notifyOnExpiry": true,
         "persistInhibit": "session",
-        "quickDurations": null,
+        "quickDurations": [
+            15,
+            30,
+            60,
+            120
+        ],
         "warnLeadSec": 60
     },
     "interactions": {
@@ -2900,7 +2928,7 @@
             "sourceLanguage": "auto",
             "targetLanguage": "English"
         },
-        "ui": "auto"
+        "ui": "en_US"
     },
     "launcher": {
         "pinnedApps": [
@@ -3014,7 +3042,7 @@
                 "labels": [],
                 "showIndicator": true
             },
-            "requirePasswordToPower": false,
+            "requirePasswordToPower": true,
             "unlockKeyring": true
         },
         "showAlarm": true,
@@ -3049,7 +3077,7 @@
         "albumArtBlurAnimations": true,
         "dynamicAlbumColors": true,
         "filterDuplicatePlayers": true,
-        "preferMusicPlayers": false,
+        "preferMusicPlayers": true,
         "priorityPlayer": ""
     },
     "mediaDownloader": {
@@ -3099,10 +3127,10 @@
     },
     "oledSaver": {
         "antiBurnIn": false,
-        "clockStyle": "widgets",
+        "clockStyle": "dial",
         "cursorHideDelay": 5,
         "enable": true,
-        "lockTimeout": 0
+        "lockTimeout": 10
     },
     "osd": {
         "brightnessKeysOnly": false,
@@ -3137,6 +3165,7 @@
     "osk": {
         "autoShow": {
             "allowMouse": false,
+            "allowMouseInDesktop": false,
             "allowPen": true,
             "allowTouch": true,
             "enable": false,
@@ -3168,10 +3197,14 @@
             "autoResize": true,
             "avatarSize": 52,
             "blurEnabled": true,
+            "joinLeaveNotices": true,
             "layoutMode": "column",
             "maxAvatars": 8,
+            "messageNotices": true,
+            "messagePreview": true,
             "participantBackground": "name",
             "participantBackgroundOpacity": 0.72,
+            "pttIndicator": true,
             "speakingPulseContinuous": true
         },
         "floatingImage": {
@@ -3268,9 +3301,11 @@
         "orderRightLeft": false,
         "rows": 1,
         "scale": 0.18,
+        "scrollingScale": 0.6,
         "scrollingStyle": {
             "zoomStyle": "out"
         },
+        "scrollingWorkspaceGap": 60,
         "showIcons": true,
         "showOpeningAnimation": true,
         "showWindowPreviews": true,
@@ -3345,6 +3380,7 @@
     },
     "policies": {
         "ai": 2,
+        "anki": 1,
         "phone": 0,
         "player": 1,
         "translator": 0,
@@ -3495,7 +3531,7 @@
             "textFadeIn": true,
             "thinkingDefault": ""
         },
-        "bannerImage": "$HOME/.config/illogical-impulse/presets/Forest_banner.jpg",
+        "bannerImage": "$HOME/.config/illogical-impulse/presets/Gruvbox_banner.jpg",
         "booru": {
             "allowNsfw": false,
             "defaultProvider": "yandere",
@@ -3522,13 +3558,13 @@
             "buttonsDesign": "circles",
             "customText": "",
             "profileImageType": "user_profile",
-            "textMode": "uptime"
+            "textMode": "username"
         },
         "dashboardSubHeader": {
-            "customText": "",
+            "customText": "fdgdfg",
             "greetingSubtextMode": "uptime"
         },
-        "enableBanner": false,
+        "enableBanner": true,
         "keepLeftSidebarLoaded": true,
         "keepRightSidebarLoaded": true,
         "position": "default",
@@ -3677,7 +3713,7 @@
             "style": "android",
             "useThreeWaySliders": true
         },
-        "sidebarStyle": "default",
+        "sidebarStyle": "connect",
         "tabletShade": {
             "edgeDragHeight": 8,
             "liveBackdrop": false
@@ -3694,10 +3730,10 @@
     },
     "sounds": {
         "alarm": true,
-        "alarmFadeIn": false,
+        "alarmFadeIn": true,
         "alarmFadeInSeconds": 30,
         "alwaysPlayApps": [],
-        "battery": false,
+        "battery": true,
         "custom": {
             "alarm": "",
             "battery": "",
@@ -3920,7 +3956,7 @@
         "showItemId": false
     },
     "update": {
-        "aiSummary": false,
+        "aiSummary": true,
         "aiSummaryMinCommits": 10,
         "autoCheckInterval": "daily",
         "replaceHyprConfig": true
